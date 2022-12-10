@@ -1,8 +1,9 @@
-import Movie from "./hoc/movie";
 import "./App.css";
+import Counter from "./hooks/CounterClass";
+import CounterF from "./hooks/CounterFunction";
 
 function App() {
-  return <Movie id={1} />;
+  return <CounterF />;
 }
 
 export default App;
