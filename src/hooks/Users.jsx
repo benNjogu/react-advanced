@@ -1,7 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useEffect } from "react";
-import { useState } from "react";
 
 function Users(props) {
   const [users, setUsers] = useState([]);
